@@ -31,22 +31,22 @@
               <img class="logo-top-d" src="images/navbar/logo_navbar2.png">
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="navbar-collapse collapse" id="navbarsExample04"> <!-- this id has to match the one in data-target from the button tag to have the toggle working -->
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <a class="nav-link" href="#top-logo-wakushma">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <a class="nav-link" href="#about-us">About Us</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <a class="nav-link" href="#events">Events</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <a class="nav-link" href="#contact-us">Contact Us</a>
                 </li>
               </ul>
